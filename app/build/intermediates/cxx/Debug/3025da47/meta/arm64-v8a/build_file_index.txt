@@ -1,0 +1,2 @@
+G:\GitHub\ImGUI-Template-With-BNM-Dobby\app\src\main\cpp\ByNameModding\CMakeLists.txt
+G:\GitHub\ImGUI-Template-With-BNM-Dobby\app\src\main\cpp\CMakeLists.txt

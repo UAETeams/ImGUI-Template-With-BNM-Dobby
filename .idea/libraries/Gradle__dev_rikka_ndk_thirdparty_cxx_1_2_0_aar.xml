@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5b2dcb2ddb42ea1df7bf740ba844d454/transformed/cxx-1.2.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5b2dcb2ddb42ea1df7bf740ba844d454/transformed/cxx-1.2.0/AndroidManifest.xml" />
     </CLASSES>
+    <DOCUMENTATION>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.rikka.ndk.thirdparty/cxx/1.2.0/91f62967d47c1dccbced1929322b83d4bb9b2c6a/cxx-1.2.0-javadoc.jar!/" />
+    </DOCUMENTATION>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.rikka.ndk.thirdparty/cxx/1.2.0/91f62967d47c1dccbced1929322b83d4bb9b2c6a/cxx-1.2.0-javadoc.jar!/" />
     </JAVADOC>

@@ -287,6 +287,9 @@ void *MainHooks(void *) {
     do {
         sleep(1);
     } while (!isLibraryLoaded(targetLibName));
+
+    address = findLibrary(targetLibName);
+
     AttachIl2Cpp();
 
 #if defined(__ARM_ARCH_7A__)
@@ -307,8 +310,8 @@ void *MainHooks(void *) {
     typedef int32_t (* Screen_get_height)();
     typedef int32_t (* Screen_get_width)();
 
-    Screen_get_height Func1 = reinterpret_cast<Screen_get_height>(Screen_get_height_Offset);
-    Screen_get_width Func2 = reinterpret_cast<Screen_get_width>(Screen_get_width_Offset);
+    Screen_get_height Func1 = reinterpret_cast<Screen_get_height>(address + Screen_get_height_Offset);
+    Screen_get_width Func2 = reinterpret_cast<Screen_get_width>(address + Screen_get_width_Offset);
 
     int32_t Height = Func1();
     int32_t Width = Func2();
@@ -322,15 +325,13 @@ void *MainHooks(void *) {
     /// Now uint32_t PlayerID_Offset is an offset to a field
     /// You can get the value stored at that location as well
 
-    int32_t PlayerID = *(int32_t*)PlayerID_Offset;
+    int32_t PlayerID = *(int32_t*)reinterpret_cast<uintptr_t>(address + PlayerID_Offset);
 
     DetachIl2Cpp();  ////// Necessary if using BNM
 
 //////////////////////
 //     BNM END     //
 ////////////////////
-
-    address = findLibrary(targetLibName);
 
     // Hook eglSwapBuffers
     auto addr = (uintptr_t)dlsym(RTLD_NEXT, "eglSwapBuffers");

@@ -1,0 +1,20 @@
+Executable : null
+arguments : 
+--build-system
+cmake
+--platform
+android
+--abi
+arm64-v8a
+--os-version
+21
+--stl
+c++_static
+--ndk-version
+28
+--output
+G:\GitHub\ImGUI-Template-With-BNM-Dobby\app\.cxx\Debug\3025da47\prefab\arm64-v8a\prefab-configure
+C:\Users\Ghani\.gradle\caches\transforms-3\633fc6be940266cfde4e43ab831750a5\transformed\dobby-1.2\prefab
+C:\Users\Ghani\.gradle\caches\transforms-3\5b2dcb2ddb42ea1df7bf740ba844d454\transformed\cxx-1.2.0\prefab
+jvmArgs : 
+

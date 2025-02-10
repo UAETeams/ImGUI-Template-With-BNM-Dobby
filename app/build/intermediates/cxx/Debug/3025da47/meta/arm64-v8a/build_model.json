@@ -1,0 +1,176 @@
+{
+  "abi": "ARM64_V8A",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "G:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\.cxx\\Debug\\3025da47\\arm64-v8a",
+  "soFolder": "G:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\build\\intermediates\\cxx\\Debug\\3025da47\\obj\\arm64-v8a",
+  "soRepublishFolder": "G:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "abiPlatformVersion": 21,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [],
+    "cFlagsList": [],
+    "cppFlagsList": [
+      "-std\u003dc++20"
+    ],
+    "variantName": "debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "G:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\.cxx",
+      "intermediatesBaseFolder": "G:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\build\\intermediates",
+      "intermediatesFolder": "G:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\build\\intermediates\\cxx",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "G:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app",
+      "moduleBuildFile": "G:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\build.gradle",
+      "makeFile": "G:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "C:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\ndk\\28.0.13004108",
+      "ndkVersion": "28.0.13004108",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 21,
+        "max": 35,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31,
+          "Sv2": 32,
+          "Tiramisu": 33,
+          "UpsideDownCake": 34,
+          "VanillaIceCream": 35
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "C:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\ndk\\28.0.13004108\\build\\cmake\\android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "C:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.18.1"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "C:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\ndk\\28.0.13004108\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "C:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\ndk\\28.0.13004108\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "C:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\ndk\\28.0.13004108\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "C:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\ndk\\28.0.13004108\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "G:\\GitHub\\ImGUI-Template-With-BNM-Dobby",
+        "sdkFolder": "C:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": true
+      },
+      "outputOptions": [],
+      "ninjaExe": "C:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe"
+    },
+    "prefabClassPaths": [
+      "C:\\Users\\Ghani\\.gradle\\caches\\modules-2\\files-2.1\\com.google.prefab\\cli\\2.0.0\\f2702b5ca13df54e3ca92f29d6b403fb6285d8df\\cli-2.0.0-all.jar"
+    ],
+    "prefabPackages": [
+      "C:\\Users\\Ghani\\.gradle\\caches\\transforms-3\\633fc6be940266cfde4e43ab831750a5\\transformed\\dobby-1.2\\prefab",
+      "C:\\Users\\Ghani\\.gradle\\caches\\transforms-3\\5b2dcb2ddb42ea1df7bf740ba844d454\\transformed\\cxx-1.2.0\\prefab"
+    ],
+    "prefabPackageConfigurations": [],
+    "stlType": "c++_static",
+    "optimizationTag": "Debug"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "G:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\.cxx\\Debug\\3025da47\\prefab\\arm64-v8a",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "3025da47205q586z472113n6k6s2w1j1ys205h6o714g135z1v2u6p4p4i6f",
+  "configurationArguments": [
+    "-HG:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\src\\main\\cpp",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DANDROID_NDK\u003dC:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\ndk\\28.0.13004108",
+    "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\ndk\\28.0.13004108",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\ndk\\28.0.13004108\\build\\cmake\\android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-DCMAKE_CXX_FLAGS\u003d-std\u003dc++20",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dG:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\build\\intermediates\\cxx\\Debug\\3025da47\\obj\\arm64-v8a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dG:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\build\\intermediates\\cxx\\Debug\\3025da47\\obj\\arm64-v8a",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_FIND_ROOT_PATH\u003dG:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\.cxx\\Debug\\3025da47\\prefab\\arm64-v8a\\prefab",
+    "-BG:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\.cxx\\Debug\\3025da47\\arm64-v8a",
+    "-GNinja"
+  ],
+  "intermediatesParentFolder": "G:\\GitHub\\ImGUI-Template-With-BNM-Dobby\\app\\build\\intermediates\\cxx\\Debug\\3025da47"
+}
