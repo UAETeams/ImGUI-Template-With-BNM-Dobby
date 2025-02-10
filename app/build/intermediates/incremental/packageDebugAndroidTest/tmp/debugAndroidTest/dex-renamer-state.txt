@@ -1,0 +1,4 @@
+#Mon Feb 10 23:07:39 PKT 2025
+base.0=G\:\\Hooking\\ImGUI-Template-With-BNM-Dobby\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

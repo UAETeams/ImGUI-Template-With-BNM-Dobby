@@ -1,0 +1,87 @@
+ninja: Entering directory `G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\.cxx\Debug\69g2i176\armeabi-v7a'
+[1/27] Building CXX object CMakeFiles/native-lib.dir/ImGui/backends/imgui_impl_opengl3.cpp.o
+warning: unknown -Werror warning specifier: '-Werror,-Wformat-security' [-Wunknown-warning-option]
+1 warning generated.
+[2/27] Building CXX object CMakeFiles/native-lib.dir/ImGui/imgui_tables.cpp.o
+warning: unknown -Werror warning specifier: '-Werror,-Wformat-security' [-Wunknown-warning-option]
+1 warning generated.
+[3/27] Building CXX object CMakeFiles/native-lib.dir/ImGui/imgui_demo.cpp.o
+warning: unknown -Werror warning specifier: '-Werror,-Wformat-security' [-Wunknown-warning-option]
+1 warning generated.
+[4/27] Building CXX object CMakeFiles/native-lib.dir/ImGui/imgui_draw.cpp.o
+warning: unknown -Werror warning specifier: '-Werror,-Wformat-security' [-Wunknown-warning-option]
+1 warning generated.
+[5/27] Building CXX object CMakeFiles/native-lib.dir/ImGui/imgui_widgets.cpp.o
+warning: unknown -Werror warning specifier: '-Werror,-Wformat-security' [-Wunknown-warning-option]
+1 warning generated.
+[6/27] Building CXX object CMakeFiles/native-lib.dir/ImGui/imgui.cpp.o
+warning: unknown -Werror warning specifier: '-Werror,-Wformat-security' [-Wunknown-warning-option]
+1 warning generated.
+[7/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/Delegates.cpp.o
+[8/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/Exceptions.cpp.o
+[9/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/Defaults.cpp.o
+[10/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/EventBase.cpp.o
+[11/27] Building CXX object CMakeFiles/native-lib.dir/ImGui/backends/imgui_impl_android.cpp.o
+warning: unknown -Werror warning specifier: '-Werror,-Wformat-security' [-Wunknown-warning-option]
+1 warning generated.
+[12/27] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+warning: unknown -Werror warning specifier: '-Werror,-Wformat-security' [-Wunknown-warning-option]
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/native-lib.cpp:51:15: warning: implicit conversion from 'long long' to 'int32_t' (aka 'int') changes value from 9999999999 to 1410065407 [-Wconstant-conversion]
+   51 |     Ammount = 9999999999;
+      |             ~ ^~~~~~~~~~
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/native-lib.cpp:215:52: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+  215 |                     ImGui::TextColored(color.Value,format);
+      |                                                    ^~~~~~
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/native-lib.cpp:215:52: note: treat the string as an argument to avoid this
+  215 |                     ImGui::TextColored(color.Value,format);
+      |                                                    ^
+      |                                                    "%s", 
+3 warnings generated.
+[13/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/Coroutine.cpp.o
+[14/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/Class.cpp.o
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/ByNameModding/src/Class.cpp:468:73: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+  468 |             BNM_LOG_WARN(DBG_BNM_MSG_CompileTimeClass_ToClass_OoB_Warn, (size_t) index);
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^~~~~~~~~~~~~~
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/ByNameModding/include/BNM/UserSettings/GlobalSettings.hpp:218:66: note: expanded from macro 'BNM_LOG_WARN'
+  218 | #define BNM_LOG_WARN(...) ((void)__android_log_print(5, BNM_TAG, __VA_ARGS__))
+      |                                                                  ^~~~~~~~~~~
+1 warning generated.
+[15/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/ClassesManagement.cpp.o
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/ByNameModding/src/ClassesManagement.cpp:112:198: warning: format specifies type 'unsigned long' but the argument has type 'size_type' (aka 'unsigned int') [-Wformat]
+  112 |             BNM_LOG_DEBUG_IF(isHooked, DBG_BNM_MSG_ClassesManagement_ModifyClasses_Hooked_Method, (method->_isStatic == 1) ? DBG_BNM_MSG_ClassesManagement_Method_Static : "", method->_name.data(), method->_parameterTypes.size());
+      |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/ByNameModding/include/BNM/UserSettings/GlobalSettings.hpp:203:96: note: expanded from macro 'BNM_LOG_DEBUG_IF'
+  203 | #define BNM_LOG_DEBUG_IF(condition, ...) if (condition) ((void)__android_log_print(3, BNM_TAG, __VA_ARGS__))
+      |                                                                                                ^~~~~~~~~~~
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/ByNameModding/src/ClassesManagement.cpp:113:198: warning: format specifies type 'unsigned long' but the argument has type 'size_type' (aka 'unsigned int') [-Wformat]
+  113 |             BNM_LOG_DEBUG_IF(!isHooked, DBG_BNM_MSG_ClassesManagement_ModifyClasses_Added_Method, (method->_isStatic == 1) ? DBG_BNM_MSG_ClassesManagement_Method_Static : "", method->_name.data(), method->_parameterTypes.size());
+      |                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/ByNameModding/include/BNM/UserSettings/GlobalSettings.hpp:203:96: note: expanded from macro 'BNM_LOG_DEBUG_IF'
+  203 | #define BNM_LOG_DEBUG_IF(condition, ...) if (condition) ((void)__android_log_print(3, BNM_TAG, __VA_ARGS__))
+      |                                                                                                ^~~~~~~~~~~
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/ByNameModding/src/ClassesManagement.cpp:227:178: warning: format specifies type 'unsigned long' but the argument has type 'size_type' (aka 'unsigned int') [-Wformat]
+  227 |         BNM_LOG_DEBUG(DBG_BNM_MSG_ClassesManagement_CreateClass_Added_Method, (method->_isStatic == 1) ? DBG_BNM_MSG_ClassesManagement_Method_Static : "", method->_name.data(), method->_parameterTypes.size());
+      |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/ByNameModding/include/BNM/UserSettings/GlobalSettings.hpp:202:67: note: expanded from macro 'BNM_LOG_DEBUG'
+  202 | #define BNM_LOG_DEBUG(...) ((void)__android_log_print(3, BNM_TAG, __VA_ARGS__))
+      |                                                                   ^~~~~~~~~~~
+3 warnings generated.
+[16/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/Hooks.cpp.o
+[17/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/FieldBase.cpp.o
+[18/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/Image.cpp.o
+[19/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/MethodBase.cpp.o
+[20/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/Loading.cpp.o
+[21/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/Internals.cpp.o
+[22/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/PropertyBase.cpp.o
+[23/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/Utils.cpp.o
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/ByNameModding/src/Utils.cpp:120:77: warning: format specifies type 'unsigned long' but the argument has type 'size_t' (aka 'unsigned int') [-Wformat]
+  120 |             BNM_LOG_ERR("\t" DBG_BNM_MSG_CompileTimeClass_ToClass_OoB_Warn, (size_t)index);
+      |                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^~~~~~~~~~~~~
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/src/main/cpp/ByNameModding/include/BNM/UserSettings/GlobalSettings.hpp:210:65: note: expanded from macro 'BNM_LOG_ERR'
+  210 | #define BNM_LOG_ERR(...) ((void)__android_log_print(6, BNM_TAG, __VA_ARGS__))
+      |                                                                 ^~~~~~~~~~~
+1 warning generated.
+[24/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/UnityStructures.cpp.o
+[25/27] Building CXX object ByNameModding/CMakeFiles/BNM.dir/src/MonoStructures.cpp.o
+[26/27] Linking CXX static library ByNameModding\libBNM.a
+[27/27] Linking CXX shared library G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\cxx\Debug\69g2i176\obj\armeabi-v7a\libnative-lib.so

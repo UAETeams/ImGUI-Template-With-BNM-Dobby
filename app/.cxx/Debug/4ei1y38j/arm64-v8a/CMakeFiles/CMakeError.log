@@ -1,0 +1,57 @@
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/4ei1y38j/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\Ghani\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe cmTC_083a4 && [1/2] Building CXX object CMakeFiles/cmTC_083a4.dir/CMakeCXXCompilerABI.cpp.o
+FAILED: CMakeFiles/cmTC_083a4.dir/CMakeCXXCompilerABI.cpp.o 
+C:\Users\Ghani\AppData\Local\Android\Sdk\ndk\28.0.13004108\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat  -std=c++21  -fPIE   -v -MD -MT CMakeFiles/cmTC_083a4.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\cmTC_083a4.dir\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_083a4.dir/CMakeCXXCompilerABI.cpp.o -c C:/Users/Ghani/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+Android (12896553, based on r530567c) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+Target: aarch64-none-linux-android21
+Thread model: posix
+InstalledDir: C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/bin
+ (in-process)
+ "C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/4ei1y38j/arm64-v8a/CMakeFiles/CMakeTmp -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/4ei1y38j/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/19 -dependency-file "CMakeFiles\\cmTC_083a4.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_083a4.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/19/include -internal-isystem C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -std=c++21 -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -target-feature +outline-atomics -target-feature -fmv -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_083a4.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/Ghani/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+error: invalid value 'c++21' in '-std=c++21'
+note: use 'c++98' or 'c++03' for 'ISO C++ 1998 with amendments' standard
+note: use 'gnu++98' or 'gnu++03' for 'ISO C++ 1998 with amendments and GNU extensions' standard
+note: use 'c++11' for 'ISO C++ 2011 with amendments' standard
+note: use 'gnu++11' for 'ISO C++ 2011 with amendments and GNU extensions' standard
+note: use 'c++14' for 'ISO C++ 2014 with amendments' standard
+note: use 'gnu++14' for 'ISO C++ 2014 with amendments and GNU extensions' standard
+note: use 'c++17' for 'ISO C++ 2017 with amendments' standard
+note: use 'gnu++17' for 'ISO C++ 2017 with amendments and GNU extensions' standard
+note: use 'c++20' for 'ISO C++ 2020 DIS' standard
+note: use 'gnu++20' for 'ISO C++ 2020 DIS with GNU extensions' standard
+note: use 'c++23' for 'ISO C++ 2023 DIS' standard
+note: use 'gnu++23' for 'ISO C++ 2023 DIS with GNU extensions' standard
+note: use 'c++2c' or 'c++26' for 'Working draft for C++2c' standard
+note: use 'gnu++2c' or 'gnu++26' for 'Working draft for C++2c with GNU extensions' standard
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/4ei1y38j/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:\Users\Ghani\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe cmTC_b57b3 && [1/2] Building CXX object CMakeFiles/cmTC_b57b3.dir/testCXXCompiler.cxx.o
+FAILED: CMakeFiles/cmTC_b57b3.dir/testCXXCompiler.cxx.o 
+C:\Users\Ghani\AppData\Local\Android\Sdk\ndk\28.0.13004108\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++21  -fPIE -MD -MT CMakeFiles/cmTC_b57b3.dir/testCXXCompiler.cxx.o -MF CMakeFiles\cmTC_b57b3.dir\testCXXCompiler.cxx.o.d -o CMakeFiles/cmTC_b57b3.dir/testCXXCompiler.cxx.o -c testCXXCompiler.cxx
+error: invalid value 'c++21' in '-std=c++21'
+note: use 'c++98' or 'c++03' for 'ISO C++ 1998 with amendments' standard
+note: use 'gnu++98' or 'gnu++03' for 'ISO C++ 1998 with amendments and GNU extensions' standard
+note: use 'c++11' for 'ISO C++ 2011 with amendments' standard
+note: use 'gnu++11' for 'ISO C++ 2011 with amendments and GNU extensions' standard
+note: use 'c++14' for 'ISO C++ 2014 with amendments' standard
+note: use 'gnu++14' for 'ISO C++ 2014 with amendments and GNU extensions' standard
+note: use 'c++17' for 'ISO C++ 2017 with amendments' standard
+note: use 'gnu++17' for 'ISO C++ 2017 with amendments and GNU extensions' standard
+note: use 'c++20' for 'ISO C++ 2020 DIS' standard
+note: use 'gnu++20' for 'ISO C++ 2020 DIS with GNU extensions' standard
+note: use 'c++23' for 'ISO C++ 2023 DIS' standard
+note: use 'gnu++23' for 'ISO C++ 2023 DIS with GNU extensions' standard
+note: use 'c++2c' or 'c++26' for 'Working draft for C++2c' standard
+note: use 'gnu++2c' or 'gnu++26' for 'Working draft for C++2c with GNU extensions' standard
+ninja: build stopped: subcommand failed.
+
+
+

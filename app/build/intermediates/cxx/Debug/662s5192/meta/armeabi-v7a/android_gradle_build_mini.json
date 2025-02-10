@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "G:\\Hooking\\ImGui-Unity-With-Layout-master\\app\\src\\main\\cpp\\ByNameModding\\CMakeLists.txt",
+    "G:\\Hooking\\ImGui-Unity-With-Layout-master\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "G:\\Hooking\\ImGui-Unity-With-Layout-master\\app\\.cxx\\Debug\\662s5192\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Ghani\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "G:\\Hooking\\ImGui-Unity-With-Layout-master\\app\\.cxx\\Debug\\662s5192\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "BNM::@0b8b56f54a62d3fed973": {
+      "artifactName": "BNM",
+      "abi": "armeabi-v7a",
+      "output": "G:\\Hooking\\ImGui-Unity-With-Layout-master\\app\\.cxx\\Debug\\662s5192\\armeabi-v7a\\ByNameModding\\libBNM.a",
+      "runtimeFiles": []
+    },
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "artifactName": "native-lib",
+      "abi": "armeabi-v7a",
+      "output": "G:\\Hooking\\ImGui-Unity-With-Layout-master\\app\\build\\intermediates\\cxx\\Debug\\662s5192\\obj\\armeabi-v7a\\libnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

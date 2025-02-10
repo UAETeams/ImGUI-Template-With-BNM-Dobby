@@ -1,0 +1,94 @@
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning at C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/build/cmake/android-legacy.toolchain.cmake:440 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/build/cmake/android.toolchain.cmake:55 (include)
+  C:/Users/Ghani/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeDetermineSystem.cmake:93 (include)
+
+
+CMake Warning at C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/build/cmake/android-legacy.toolchain.cmake:440 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/build/cmake/android.toolchain.cmake:55 (include)
+  G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/4ei1y38j/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake:6 (include)
+  G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/4ei1y38j/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+CMake Warning at C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/build/cmake/android-legacy.toolchain.cmake:440 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/build/cmake/android.toolchain.cmake:55 (include)
+  G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/4ei1y38j/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake:6 (include)
+  G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/4ei1y38j/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+CMake Warning at C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/build/cmake/android-legacy.toolchain.cmake:440 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/build/cmake/android.toolchain.cmake:55 (include)
+  G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/4ei1y38j/arm64-v8a/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake:6 (include)
+  G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/4ei1y38j/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+CMake Error at C:/Users/Ghani/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeTestCXXCompiler.cmake:59 (message):
+  The C++ compiler
+
+    "C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/4ei1y38j/arm64-v8a/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:\Users\Ghani\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe cmTC_b57b3 && [1/2] Building CXX object CMakeFiles/cmTC_b57b3.dir/testCXXCompiler.cxx.o
+    FAILED: CMakeFiles/cmTC_b57b3.dir/testCXXCompiler.cxx.o 
+    C:\Users\Ghani\AppData\Local\Android\Sdk\ndk\28.0.13004108\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/Ghani/AppData/Local/Android/Sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++21  -fPIE -MD -MT CMakeFiles/cmTC_b57b3.dir/testCXXCompiler.cxx.o -MF CMakeFiles\cmTC_b57b3.dir\testCXXCompiler.cxx.o.d -o CMakeFiles/cmTC_b57b3.dir/testCXXCompiler.cxx.o -c testCXXCompiler.cxx
+    error: invalid value 'c++21' in '-std=c++21'
+    note: use 'c++98' or 'c++03' for 'ISO C++ 1998 with amendments' standard
+    note: use 'gnu++98' or 'gnu++03' for 'ISO C++ 1998 with amendments and GNU extensions' standard
+    note: use 'c++11' for 'ISO C++ 2011 with amendments' standard
+    note: use 'gnu++11' for 'ISO C++ 2011 with amendments and GNU extensions' standard
+    note: use 'c++14' for 'ISO C++ 2014 with amendments' standard
+    note: use 'gnu++14' for 'ISO C++ 2014 with amendments and GNU extensions' standard
+    note: use 'c++17' for 'ISO C++ 2017 with amendments' standard
+    note: use 'gnu++17' for 'ISO C++ 2017 with amendments and GNU extensions' standard
+    note: use 'c++20' for 'ISO C++ 2020 DIS' standard
+    note: use 'gnu++20' for 'ISO C++ 2020 DIS with GNU extensions' standard
+    note: use 'c++23' for 'ISO C++ 2023 DIS' standard
+    note: use 'gnu++23' for 'ISO C++ 2023 DIS with GNU extensions' standard
+    note: use 'c++2c' or 'c++26' for 'Working draft for C++2c' standard
+    note: use 'gnu++2c' or 'gnu++26' for 'Working draft for C++2c with GNU extensions' standard
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+
+

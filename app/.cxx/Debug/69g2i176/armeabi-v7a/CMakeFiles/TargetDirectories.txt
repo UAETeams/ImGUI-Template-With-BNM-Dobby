@@ -1,0 +1,6 @@
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/.cxx/Debug/69g2i176/armeabi-v7a/CMakeFiles/native-lib.dir
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/.cxx/Debug/69g2i176/armeabi-v7a/CMakeFiles/edit_cache.dir
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/.cxx/Debug/69g2i176/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/.cxx/Debug/69g2i176/armeabi-v7a/ByNameModding/CMakeFiles/BNM.dir
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/.cxx/Debug/69g2i176/armeabi-v7a/ByNameModding/CMakeFiles/edit_cache.dir
+G:/Hooking/ImGUI-Template-With-BNM-Dobby/app/.cxx/Debug/69g2i176/armeabi-v7a/ByNameModding/CMakeFiles/rebuild_cache.dir

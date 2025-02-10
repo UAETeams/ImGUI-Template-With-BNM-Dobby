@@ -1,0 +1,20 @@
+Executable : null
+arguments : 
+--build-system
+cmake
+--platform
+android
+--abi
+arm64-v8a
+--os-version
+19
+--stl
+c++_static
+--ndk-version
+21
+--output
+G:\Hooking\ImGui-Unity-With-Layout-master\app\.cxx\Debug\33a3aio6\prefab\arm64-v8a\prefab-configure
+C:\Users\Ghani\.gradle\caches\transforms-3\9ad8da2816cf4306737b8c03d915911d\transformed\dobby-1.2\prefab
+C:\Users\Ghani\.gradle\caches\transforms-3\2e7b15718b035c3e7d50a1a32619a28a\transformed\cxx-1.2.0\prefab
+jvmArgs : 
+

@@ -1,0 +1,6 @@
+G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/RelWithDebInfo/50l3i4o4/arm64-v8a/CMakeFiles/native-lib.dir
+G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/RelWithDebInfo/50l3i4o4/arm64-v8a/CMakeFiles/edit_cache.dir
+G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/RelWithDebInfo/50l3i4o4/arm64-v8a/CMakeFiles/rebuild_cache.dir
+G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/RelWithDebInfo/50l3i4o4/arm64-v8a/ByNameModding/CMakeFiles/BNM.dir
+G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/RelWithDebInfo/50l3i4o4/arm64-v8a/ByNameModding/CMakeFiles/edit_cache.dir
+G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/RelWithDebInfo/50l3i4o4/arm64-v8a/ByNameModding/CMakeFiles/rebuild_cache.dir

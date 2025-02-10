@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity.imgui.test" >
+4
+5    <uses-sdk
+5-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2496335103357477590.xml:5:5-74
+6        android:minSdkVersion="19"
+6-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2496335103357477590.xml:5:15-41
+7        android:targetSdkVersion="30" />
+7-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2496335103357477590.xml:5:42-71
+8
+9    <instrumentation
+9-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2496335103357477590.xml:11:5-15:65
+10        android:name="android.test.InstrumentationTestRunner"
+10-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2496335103357477590.xml:11:22-75
+11        android:functionalTest="false"
+11-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2496335103357477590.xml:14:22-52
+12        android:handleProfiling="false"
+12-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2496335103357477590.xml:13:22-53
+13        android:label="Tests for com.unity.imgui"
+13-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2496335103357477590.xml:15:22-63
+14        android:targetPackage="com.unity.imgui" />
+14-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2496335103357477590.xml:12:22-61
+15
+16    <application android:debuggable="true" >
+16-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2496335103357477590.xml:7:5-9:19
+17        <uses-library android:name="android.test.runner" />
+17-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2496335103357477590.xml:8:9-60
+17-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2496335103357477590.xml:8:23-57
+18    </application>
+19
+20</manifest>

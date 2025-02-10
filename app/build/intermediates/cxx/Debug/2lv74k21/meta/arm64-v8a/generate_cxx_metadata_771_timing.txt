@@ -1,0 +1,73 @@
+# C/C++ build system timings
+generate_cxx_metadata
+  create-invalidation-state 26ms
+  generate-prefab-packages
+    execute-process 904ms
+  generate-prefab-packages completed in 910ms
+  execute-generate-process
+    execute-process 375ms
+    [gap of 261ms]
+  execute-generate-process completed in 638ms
+  [gap of 13ms]
+generate_cxx_metadata completed in 1607ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  create-invalidation-state 23ms
+  generate-prefab-packages
+    execute-process 402ms
+  generate-prefab-packages completed in 412ms
+  execute-generate-process
+    execute-process 225ms
+    [gap of 120ms]
+  execute-generate-process completed in 347ms
+  [gap of 11ms]
+generate_cxx_metadata completed in 814ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  create-invalidation-state 21ms
+  generate-prefab-packages
+    execute-process 405ms
+  generate-prefab-packages completed in 413ms
+  execute-generate-process
+    execute-process 199ms
+    [gap of 100ms]
+  execute-generate-process completed in 301ms
+  [gap of 11ms]
+generate_cxx_metadata completed in 766ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  create-invalidation-state 23ms
+  generate-prefab-packages
+    execute-process 368ms
+  generate-prefab-packages completed in 374ms
+  execute-generate-process
+    execute-process 144ms
+  execute-generate-process completed in 148ms
+generate_cxx_metadata completed in 570ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  create-invalidation-state 23ms
+  generate-prefab-packages
+    execute-process 390ms
+  generate-prefab-packages completed in 397ms
+  execute-generate-process
+    execute-process 1314ms
+  execute-generate-process completed in 1321ms
+generate_cxx_metadata completed in 1783ms
+
+# C/C++ build system timings
+generate_cxx_metadata
+  generate-prefab-packages
+    execute-process 390ms
+  generate-prefab-packages completed in 396ms
+  execute-generate-process
+    execute-process 1169ms
+    [gap of 492ms]
+  execute-generate-process completed in 1667ms
+  [gap of 13ms]
+generate_cxx_metadata completed in 2085ms
+
