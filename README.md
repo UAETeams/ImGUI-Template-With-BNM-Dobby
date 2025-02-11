@@ -4,7 +4,7 @@ ImGui Template that works with Dobby and BNM
    ![image](https://github.com/user-attachments/assets/0a1babbe-8170-4959-954d-de10de245736)
 
 # List of Features
-  1: Added latest version of BNM with support upto Unity 6.0.0.0f.
+  1. Added latest version of BNM with support upto Unity 6.0.0.0f.
   2: Added latest version of KittyMemory hook.
 
 # How to inject / implement
