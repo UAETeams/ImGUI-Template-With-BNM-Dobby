@@ -11,6 +11,11 @@ ImGui Template that works with Dobby and BNM
   1. Extract the lib from your deired Architecture or simply `armeabi-v7a`
   2. Place your lib in correct path of the game.
   3. Load your Lib from `onCreate` of your Game's Mainactivity or UnityPlayerActivity
+
+# How to inject / implement
+  1. Extract the lib from your deired Architecture or simply `armeabi-v7a`
+  2. Place your lib in correct path of the game.
+  3. Load your Lib from `onCreate` of your Game's Mainactivity or UnityPlayerActivity
   
  The main activity of Unity is: ```com/unity/player/UnityPlayerActivity```
    
