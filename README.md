@@ -5,12 +5,7 @@ ImGui Template that works with Dobby and BNM
 
 # List of Features
   1. Added latest version of BNM with support upto Unity 6.0.0.0f.
-  2: Added latest version of KittyMemory hook.
-
-# How to inject / implement
-  1. Extract the lib from your deired Architecture or simply `armeabi-v7a`
-  2. Place your lib in correct path of the game.
-  3. Load your Lib from `onCreate` of your Game's Mainactivity or UnityPlayerActivity
+  2. Added latest version of KittyMemory hook.
 
 # How to inject / implement
   1. Extract the lib from your deired Architecture or simply `armeabi-v7a`
