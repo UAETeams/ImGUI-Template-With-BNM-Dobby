@@ -1,24 +1,11 @@
- # ImGui Unity Template with Costumized Layout
- > 2022/06/16: Initial Comit.
+ # ImGui Unity Template based on PolarMod ImGUI Template
 
-ImGui Template that can addapt any Unity Games 
- ![image](https://github.com/springmusk026/ImGui-Unity-With-Layout/blob/master/main.jpg?raw=true)
- 
-# What is IMGUI?
-   Imgui is basically a full stack GUI framework made with c++ which supports lots of operatinh systems
+ImGui Template that works with Dobby and BNM
+   ![image](https://github.com/user-attachments/assets/0a1babbe-8170-4959-954d-de10de245736)
 
-# Is it Easy to use Imgui on Android?
- If need to say correctly , I dont find it easy to use as i use on my pc
-
-# Why IMGUI?
- As Its a full stack Framework we/you can easily make lots of things from it easily and it can save lot of time
-
-# How it Works ?
-   Yes , While Talking about its working method currently we use egl to hook with our EGLSurface
-  or Simply It uses `eglSwapBuffers` with Dobby Hook
-  
-# How is it's touch Managed?  
-   Currently it uses the touch from game itself ,like Unity structure for touch so it gets easy for us to Handle it
+# List of Features
+  >1: Added latest version of BNM with support upto Unity 6.0.0.0f
+  >2: Added latest version of KittyMemory hook
 
 # How to inject / implement
   1. Extract the lib from your deired Architecture or simply `armeabi-v7a`
@@ -43,14 +30,9 @@ ImGui Template that can addapt any Unity Games
 
 # Notice:
  I am not in any race of releasing first or last but yes i provide the cleaniest sources with proper credit of creators , those who dont have much mind let them keep it doing (your ego is useless in front of this world )
-# Codes 
-![image](https://github.com/springmusk026/ImGui-Unity-With-Layout/blob/master/a.jpg?raw=true)
-![image](https://github.com/springmusk026/ImGui-Unity-With-Layout/blob/master/b.jpg?raw=true)
-![image](https://github.com/springmusk026/ImGui-Unity-With-Layout/blob/master/c.jpg?raw=true)
-![image](https://github.com/springmusk026/ImGui-Unity-With-Layout/blob/master/d.jpg?raw=true)
-![image](https://github.com/springmusk026/ImGui-Unity-With-Layout/blob/master/e.jpg?raw=true)
+ 
 # Credits
-
+* PolarMods/PolarImGUI - https://github.com/Polarmods/PolarImGui/tree/main
 * Jackknobel/Ocornut - IMGUI : https://github.com/ocornut/imgui
 * vvb2060 - DobbyHook - https://github.com/vvb2060/dobby-android
 * Ztz - IMGUI template https://github.com/ZTzTopia
