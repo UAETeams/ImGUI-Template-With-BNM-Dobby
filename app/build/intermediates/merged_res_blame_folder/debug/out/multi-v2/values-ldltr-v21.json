@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.unity.imgui.app-mergeDebugResources-23:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.toshi.imguiandroid.app-mergeDebugResources-7:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ghani\\.gradle\\caches\\transforms-3\\f06612d61bc728407605936f95508893\\transformed\\appcompat-1.4.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\Ghani\\.gradle\\caches\\transforms-3\\1b84571f6e7c25e8bdd7d7945cbbac34\\transformed\\appcompat-1.1.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

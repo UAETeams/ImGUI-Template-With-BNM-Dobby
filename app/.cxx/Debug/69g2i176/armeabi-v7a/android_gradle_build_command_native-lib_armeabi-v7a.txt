@@ -1,7 +1,0 @@
-Executable : C:\Users\Ghani\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
-arguments : 
--C
-G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\.cxx\Debug\69g2i176\armeabi-v7a
-native-lib
-jvmArgs : 
-

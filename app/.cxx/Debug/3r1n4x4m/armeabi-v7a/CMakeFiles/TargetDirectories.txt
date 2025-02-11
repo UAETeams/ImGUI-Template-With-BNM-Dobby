@@ -1,6 +1,0 @@
-G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/3r1n4x4m/armeabi-v7a/CMakeFiles/native-lib.dir
-G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/3r1n4x4m/armeabi-v7a/CMakeFiles/edit_cache.dir
-G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/3r1n4x4m/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/3r1n4x4m/armeabi-v7a/ByNameModding/CMakeFiles/BNM.dir
-G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/3r1n4x4m/armeabi-v7a/ByNameModding/CMakeFiles/edit_cache.dir
-G:/Hooking/ImGui-Unity-With-Layout-master/app/.cxx/Debug/3r1n4x4m/armeabi-v7a/ByNameModding/CMakeFiles/rebuild_cache.dir

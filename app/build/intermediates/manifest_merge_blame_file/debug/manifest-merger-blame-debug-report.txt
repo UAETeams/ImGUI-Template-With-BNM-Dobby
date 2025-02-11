@@ -1,71 +1,46 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.unity.imgui"
+3    package="com.toshi.imguiandroid"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="19"
-8-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="21"
+8-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml
+9-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:5:5-21:19
+11-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:5:5-19:19
 12        android:allowBackup="true"
-12-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:6:9-35
+12-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\Ghani\.gradle\caches\transforms-3\2f762b16bbeedb2ada2d2bd5f29f70c1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.1.0] C:\Users\Ghani\.gradle\caches\transforms-3\6ffe093bcd27047bfa3d78b58acbbfb3\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:7:9-43
+15-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:8:9-41
+16-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:9:9-54
+17-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/Theme.Application" >
-19-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:11:9-49
-20        <activity
-20-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:12:9-20:20
-21            android:name="com.unity.imgui.MainActivity"
-21-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:13:13-41
-22            android:exported="true" >
-22-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:14:13-36
-23            <intent-filter>
-23-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:15:13-19:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:16:17-69
-24-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:16:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:18:17-77
-26-->G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\main\AndroidManifest.xml:18:27-74
-27            </intent-filter>
-28        </activity>
-29
-30        <provider
-30-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ghani\.gradle\caches\transforms-3\f047d37f18df24afff9985413ac29360\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-31            android:name="androidx.startup.InitializationProvider"
-31-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ghani\.gradle\caches\transforms-3\f047d37f18df24afff9985413ac29360\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-32            android:authorities="com.unity.imgui.androidx-startup"
-32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ghani\.gradle\caches\transforms-3\f047d37f18df24afff9985413ac29360\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-33            android:exported="false" >
-33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ghani\.gradle\caches\transforms-3\f047d37f18df24afff9985413ac29360\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-34            <meta-data
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ghani\.gradle\caches\transforms-3\f047d37f18df24afff9985413ac29360\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-35                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ghani\.gradle\caches\transforms-3\f047d37f18df24afff9985413ac29360\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-36                android:value="androidx.startup" />
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Ghani\.gradle\caches\transforms-3\f047d37f18df24afff9985413ac29360\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-37            <meta-data
-37-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ghani\.gradle\caches\transforms-3\1c268ac87d17862d9e3198418d16b50c\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-38                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-38-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ghani\.gradle\caches\transforms-3\1c268ac87d17862d9e3198418d16b50c\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-39                android:value="androidx.startup" />
-39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Ghani\.gradle\caches\transforms-3\1c268ac87d17862d9e3198418d16b50c\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-40        </provider>
-41    </application>
-42
-43</manifest>
+18-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="com.toshi.imguiandroid.MainActivity" >
+20-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:12:9-18:20
+20-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:12:19-47
+21            <intent-filter>
+21-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:13:13-17:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:14:17-69
+22-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:16:17-77
+24-->G:\Hooking\PolarImGui-main\app\src\main\AndroidManifest.xml:16:27-74
+25            </intent-filter>
+26        </activity>
+27    </application>
+28
+29</manifest>

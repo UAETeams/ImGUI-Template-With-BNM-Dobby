@@ -1,7 +1,7 @@
-com.unity.imgui.test.app-androidTest-0 G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\generated\res\resValues\androidTest\debug
-com.unity.imgui.test.app-androidTest-1 G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\generated\res\rs\androidTest\debug
-com.unity.imgui.test.app-mergeDebugAndroidTestResources-2 G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.unity.imgui.test.app-mergeDebugAndroidTestResources-3 G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.unity.imgui.test.app-merged_res-4 G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\build\intermediates\merged_res\debugAndroidTest
-com.unity.imgui.test.app-androidTest-5 G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\androidTest\res
-com.unity.imgui.test.app-androidTestDebug-6 G:\Hooking\ImGUI-Template-With-BNM-Dobby\app\src\androidTestDebug\res
+com.toshi.imguiandroid.test.app-androidTest-0 G:\Hooking\PolarImGui-main\app\build\generated\res\resValues\androidTest\debug
+com.toshi.imguiandroid.test.app-androidTest-1 G:\Hooking\PolarImGui-main\app\build\generated\res\rs\androidTest\debug
+com.toshi.imguiandroid.test.app-mergeDebugAndroidTestResources-2 G:\Hooking\PolarImGui-main\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.toshi.imguiandroid.test.app-mergeDebugAndroidTestResources-3 G:\Hooking\PolarImGui-main\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.toshi.imguiandroid.test.app-merged_res-4 G:\Hooking\PolarImGui-main\app\build\intermediates\merged_res\debugAndroidTest
+com.toshi.imguiandroid.test.app-androidTest-5 G:\Hooking\PolarImGui-main\app\src\androidTest\res
+com.toshi.imguiandroid.test.app-androidTestDebug-6 G:\Hooking\PolarImGui-main\app\src\androidTestDebug\res
